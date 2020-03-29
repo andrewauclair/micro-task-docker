@@ -8,7 +8,6 @@
 FROM openjdk:14-jdk
 MAINTAINER Andrew Auclair <mightymalakai33@gmail.com>
 
-ENV PATH "$PATH:${ANDROID_HOME}/tools:${GRADLE_HOME}/bin"
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update &&

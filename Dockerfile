@@ -10,7 +10,7 @@ MAINTAINER Andrew Auclair <mightymalakai33@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-yum install -y wget jq
+RUN yum install -y wget jq
 #wget https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64 -O jq
 
 #ENV PATH "$PATH:./jq"

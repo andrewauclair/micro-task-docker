@@ -10,6 +10,6 @@ MAINTAINER Andrew Auclair <mightymalakai33@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update &&
-RUN apt-get install --no-install-recommends &&
+RUN apt-get update
+RUN apt-get install --no-install-recommends
 RUN apt-get install jq

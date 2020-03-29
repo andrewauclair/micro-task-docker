@@ -11,6 +11,6 @@ MAINTAINER Andrew Auclair <mightymalakai33@gmail.com>
 ENV PATH "$PATH:${ANDROID_HOME}/tools:${GRADLE_HOME}/bin"
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get -qq update && \
-    apt-get install -qqy --no-install-recommends \
-      jq
+RUN apt-get update &&
+RUN apt-get install --no-install-recommends &&
+RUN apt-get install jq

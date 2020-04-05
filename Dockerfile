@@ -10,9 +10,6 @@ MAINTAINER Andrew Auclair <mightymalakai33@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN yum install -y wget jq
-#wget https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64 -O jq
-
-#ENV PATH "$PATH:./jq"
+RUN yum install -y wget jq bash
 
 RUN echo '{ "name":"John", "age":31, "city":"New York" }' | jq .

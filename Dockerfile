@@ -13,3 +13,5 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN microdnf install -y wget jq bash git
 
 RUN echo '{ "name":"John", "age":31, "city":"New York" }' | jq .
+
+RUN whereis find

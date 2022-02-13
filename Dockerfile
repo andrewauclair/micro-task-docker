@@ -10,7 +10,7 @@ MAINTAINER Andrew Auclair <mightymalakai33@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN microdnf install -y wget jq bash git
+RUN microdnf install -y wget jq bash git findutils
 
 RUN echo '{ "name":"John", "age":31, "city":"New York" }' | jq .
 

@@ -5,7 +5,7 @@
 # https://hub.docker.com/r/mightymalakai33/gitlab-ci-bowling-stats-docker/
 #
 
-FROM openjdk:15.0.2-jdk
+FROM openjdk:22-jdk
 MAINTAINER Andrew Auclair <mightymalakai33@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
